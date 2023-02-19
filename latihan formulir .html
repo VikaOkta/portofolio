@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Latihan formulir </title>
+</head>
+<body>
+    <h2 align="center"> Form Input Mahasiswa Baru </h2>
+    <table align="center" cellpading="90px">
+
+        <tr>
+        <td> NIM <br> <br> </td>
+        <td>: <br> <br> </td>
+        <td><input type="text" placeholder="Nomor Induk Mahasiswa"> <br> <br> </td>
+        </tr>
+        
+        <tr>
+        <td> Nama Lengkap <br> <br> </td>
+        <td>: <br> <br> </td>
+        <td><input type="text" placeholder="Nama Lengkap"> <br> <br> </td> 
+        </tr>
+
+        <tr>
+            <td> Tempat Lahir <br> <br> </td>
+            <td>: <br> <br> </td>
+            <td><input type="text" placeholder="Tempat Lahir"> <br> <br> </td>
+            </tr>
+        
+        <tr>
+        <td> Tanggal Lahir <br> <br> </td>
+        <td>: <br> <br> </td>
+        <td><input type="Date"> <br> <br> </td>
+        </tr>
+
+        <tr>
+            <td> Alamat Lengkap <br> <br> </td>
+            <td> : <br> <br> </td>
+            <td><textarea name="alamat" id="alamat" cols="39" rows="5" placeholder="Alamat Lengkap"></textarea></td>
+        </tr>
+        
+            <tr>
+                <td>Jenis Kelamin <br> <br> </td>
+                <td>: <br> <br> </td>
+                <td><input type="radio" name='jenis_kelamin' value='pria'/>Pria
+                <input type="radio" name='jenis_kelamin' value='wanita'/>Wanita <br> <br> </td>
+            </tr>
+
+                <tr>
+                    <td> Jurusan <br> <br> </td>
+                    <td>: <br> <br> </td>
+                    <td><select>
+                    <option> Teknik Informatika </option>
+                    <option> Sistem Informasi </option>
+                    <option> Teknik Komputer </option>
+                    <option> Rekayasa Perangkat Lunak </option>
+                    </select> <br> <br> </td>
+                    </tr>
+
+             <tr>
+                    <td> Fasilitas <br> <br> </td>
+                    <td>: <br> <br> </td>
+                    <td><input type="checkbox" name='Fasilitas' value='Komputer'/>Komputer
+                    <input type="checkbox" name='Fasilitas' value='Kabel Lan'/>Kabel Lan
+                    <input type="checkbox" name='Fasilitas' value='Fiber Optik'/>Fiber Optik
+                    <input type="checkbox" name='Fasilitas' value='Mikrotik'/>Mikrotik <br> <br> </td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input type="submit" name="submit" value="Submit"/>
+                <input type="reset" name="reset" value="Reset" /></td>
+                </tr>
+</body>
+</html>
